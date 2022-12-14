@@ -1,3 +1,6 @@
+# Template for admin to reset MySQL user password
+SET PASSWORD FOR ‘userName’@’host’ = “newPassHere”;
+
 USE testdb1; 
 SELECT * from customer;
 UPDATE customer SET first_name = "Bob" 
